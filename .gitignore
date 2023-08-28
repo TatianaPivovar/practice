@@ -1,0 +1,22 @@
+# Всё, что будет появляться в каталоге build
+/build/**
+
+# Все jar-файлы
+*.jar
+
+# кроме module2.jar
+!module2.jar
+
+# файл настроек мы создали для отладки на своей машине
+application-local.properties
+
+# папку .idea полностью
+/.idea/
+
+# папку .idea_copy кроме файла workspace.xm
+/.idea_copy/
+!.idea_copy/workspace.xml
+
+# Исключаем все папки build
+build/
+# "файл module2.jar из п 2.1.b по-прежнему не должен игнорироваться
